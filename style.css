@@ -75,6 +75,7 @@ font-family: 'Fredoka One', cursive;
 
 .intro {
   margin: 0 0 120px;
+ text-align: center;
 }
 
 .subheading {
@@ -197,5 +198,5 @@ font-family: 'Fredoka One', cursive;
   background-image: url("img/icon-phone-footer.svg");
 }
 .main-photo{
- align-items: center;
+
 }
