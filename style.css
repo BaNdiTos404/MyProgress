@@ -6,7 +6,7 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("img/header-background.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -25,7 +25,7 @@ body {
 .page-header .container,
 .page-footer .container {
   max-width: 1408px;
-  text-align: right;
+  text-align: left;
 }
 
 .page-header a {
@@ -35,10 +35,14 @@ body {
   background-repeat: no-repeat;
   background-position: left;
 }
+.page-header a:hover{
+    color: blue;
+}
 
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
+    
 }
 
 .header-phone {
@@ -191,4 +195,7 @@ font-family: 'Fredoka One', cursive;
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+.main-photo{
+ align-items: center;
 }
